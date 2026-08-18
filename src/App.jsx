@@ -8,38 +8,51 @@ function App() {
       <div className="glow glow-two" />
 
       <nav className="navbar">
-        <a className="brand" href="/">
+        <a className="brand" href="/" aria-label="Luna Perfumes">
           LUNA
           <span>PERFUMES</span>
         </a>
 
         <a
           className="instagram-link"
-          href="https://instagram.com/lunaperfumes.official"
+          href="https://instagram.com/YOUR_USERNAME"
           target="_blank"
           rel="noreferrer"
         >
-          Instagram ↗
+          Follow the story ↗
         </a>
       </nav>
 
       <section className="hero">
         <div className="hero-copy">
-          <p className="eyebrow">A NEW FRAGRANCE EXPERIENCE</p>
+          <p className="eyebrow">
+            YOU FOUND US BEFORE THE FIRST SPRAY
+          </p>
 
           <h1>
-            Your next
-            <span>signature scent.</span>
+            Become the
+            <span>memory they replay.</span>
           </h1>
 
           <p className="description">
-            A collection created to linger—on your skin, in the room and in
-            someone’s memory.
+            Luna isn’t simply worn. It arrives before you, stays after
+            you, and turns ordinary nights into unfinished stories.
           </p>
 
-          <div className="launch">
-            <span className="launch-line" />
-            <p>LAUNCHING SOON</p>
+          <div className="cta-area">
+            <a
+              className="access-button"
+              href="https://instagram.com/lunaperfumes.official"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Enter the inner circle
+              <span>↗</span>
+            </a>
+
+            <p className="access-note">
+              Private launch access · Limited first release
+            </p>
           </div>
         </div>
 
@@ -48,17 +61,25 @@ function App() {
           <div className="orbit orbit-two" />
           <div className="image-glow" />
 
-          <img src={heroImage} alt="Luna perfume coming soon" />
+          <span className="edition-mark">
+            01
+            <small>THE BEGINNING</small>
+          </span>
 
-          <p className="floating-note note-one">Floral</p>
-          <p className="floating-note note-two">Warm</p>
-          <p className="floating-note note-three">Unforgettable</p>
+          <img
+            src={heroImage}
+            alt="The first fragrance by Luna Perfumes"
+          />
+
+          <p className="floating-note note-one">Felt once</p>
+          <p className="floating-note note-two">Wanted twice</p>
+          <p className="floating-note note-three">Remembered after</p>
         </div>
       </section>
 
       <footer>
         <p>© 2026 Luna Perfumes</p>
-        <p>Made for unforgettable moments.</p>
+        <p>Some scents fade. Luna follows.</p>
       </footer>
     </main>
   );
