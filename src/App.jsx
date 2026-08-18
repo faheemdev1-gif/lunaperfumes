@@ -15,7 +15,7 @@ function App() {
 
         <a
           className="instagram-link"
-          href="https://instagram.com/"
+          href="https://instagram.com/lunaperfumes.official"
           target="_blank"
           rel="noreferrer"
         >
